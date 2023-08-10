@@ -19,12 +19,13 @@ class ObserverInNewsletterTest extends TestCase
         $supplier = new Supplier('Steve Jobs', 'stevejobs@gmail.com', $newsletter);
         $partner = new Partner('Bill Gates', 'billgates@gmail.com', $newsletter);
 
-        $newsletter->addMessage('Segunda Mensagem');
+        // $newsletter->addMessage('Segunda Mensagem');
 
-        $newsletter->removeObserver($supplier);
-        $newsletter->removeObserver($client);
+        // $newsletter->removeObserver($supplier);
+        // $newsletter->removeObserver($client);
 
-        $newsletter->notifyObservers();
+        // Comentado pois suja o terminal de testes :)
+        // $newsletter->notifyObservers();
 
         $this->assertTrue(true);
     }
