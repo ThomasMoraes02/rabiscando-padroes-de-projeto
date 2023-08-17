@@ -29,7 +29,7 @@ class TopPagamento
 
     public function charge(): bool
     {
-        echo 'Pagamento realizado via TopPagamentos';
+        // echo 'Pagamento realizado via TopPagamentos';
         return true;
     }
 }
