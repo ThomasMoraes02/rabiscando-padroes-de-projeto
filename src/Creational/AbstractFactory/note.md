@@ -1,0 +1,1 @@
+# Fonece uma interface para criar familia de objetos relacionados
